@@ -14,7 +14,9 @@ En esta tarea estaremos estudiando la sintaxis del lenguaje Markdown.
 *con lo basico se podra escribir un texto mas* **complicado**
 ---
 [Perfi Github](https://github.com/juanpdam2801-creator/etsdam_juanpablo)
-[imagen](ut1/actividades/a1/repositorio.png)
+
+
+![imagen](ut1/actividades/a1/repositorio.png)
 ---
 `System.outln("hola mundo")`
 ---
