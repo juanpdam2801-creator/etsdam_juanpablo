@@ -11,9 +11,8 @@ En esta tarea estaremos estudiando la sintaxis del lenguaje Markdown.
 1. \ +* estos simbolos son para una lista 
 2. \ []con esto haremos enlaces discretos.
 ---
-con lo basico se podra escribir un texto mas **complicado**
----
-[Perfi-Github]:ttps://github.com/juanpdam2801-creator/etsdam_juanpablo
+ con lo basico se podra escribir un texto mas **complicado**
+ [Perfi Github](ttps://github.com/juanpdam2801-creator/etsdam_juanpablo)
 ---
 `System.outln("hola mundo")`
 ---
