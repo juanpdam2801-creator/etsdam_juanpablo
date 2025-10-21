@@ -42,17 +42,17 @@ El objetivo de la practica es probar los distintos comandos de git y ver su comp
 + Cambiamos de rama y hacemos el **merge** con conflictos.(captura8)
 + Arreglamos el conflicto y hacemos un commit.(captura9)
 
-+Pregunta 1:
++ Pregunta 1:
 Se puede omitir el git clone, pues este comando es solo para clonar, despues solo hace falta cd para poder entrar-
-+Pregunta 2:
++ Pregunta 2:
 Si se suben, mas no son visibles para git y el repositorio.
-+Pregunta 3:
++ Pregunta 3:
 git add . añade ficheros,archivos o cambios a estos y el commit es para guardar esos cambios internamente para que no afecte al funcionamiento de git.
-+Pregunta 4:
++ Pregunta 4:
 Un "tag" en Git es una referencia permanente a un commit específico en el historial del repositorio, utilizado generalmente para marcar versiones importantes como lanzamientos de software
-+Pregunta 4:
++ Pregunta 4:
 Las ramas ayudan a la organizacion en el trabajo para distintas personas, si se quiere trabajar en algo nuevo sin que afecte a lo que ya se tiene se hace un rama para poder trabajarlo sin modificar el programa.
-+Pregunta 5:
++ Pregunta 5:
 No.
 
 
