@@ -41,7 +41,7 @@ El objetivo de la practica es probar los distintos comandos de git y ver su comp
 + Modificamos los archivos para crear un conflicto.(captura7)
 + Cambiamos de rama y hacemos el **merge** con conflictos.(captura8)
 + Arreglamos el conflicto y hacemos un commit.(captura9)
-
+---
 + Pregunta 1:
 Se puede omitir el git clone, pues este comando es solo para clonar, despues solo hace falta cd para poder entrar-
 + Pregunta 2:
