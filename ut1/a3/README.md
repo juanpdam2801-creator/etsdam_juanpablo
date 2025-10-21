@@ -33,22 +33,15 @@ El objetivo de la practica es probar los distintos comandos de git y ver su comp
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-+Clonamos el repositorio con el comando git clone <codigo-del-repositorio>
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura 2.png)
-+Creamos un fichero **(privado)** y lo ignoramos.
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura3.png)
-+Creamos un tag y le hacemos commit.
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura4.png)
-+Creamos una nueva rama con su fichero 2.txt
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura5.png)
-+Hacemos un merge sin conflictos.
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura6.png)
-+Modificamos los archivos para crear un conflicto.
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura7.png)
-+Cambiamos de rama y hacemos el **merge** con conflictos.
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura8.png)
-+Arreglamos el conflicto y hacemos un commit.
-![](/Documentos/etsdam_juan_pablo/etes_juanpablo/ut1/a3/img/captura9.png)
++ Clonamos el repositorio con el comando git clone <codigo-del-repositorio>.(captura 2)
++ Creamos un fichero **(privado)** y lo ignoramos.(captura3)
++ Creamos un tag y le hacemos commit.(captura4)
++ Creamos una nueva rama con su fichero 2.txt(captura5)
++ Hacemos un merge sin conflictos.(Captura6)
++ Modificamos los archivos para crear un conflicto.(captura7)
++ Cambiamos de rama y hacemos el **merge** con conflictos.(captura8)
++ Arreglamos el conflicto y hacemos un commit.(captura9)
+
 +Pregunta 1:
 Se puede omitir el git clone, pues este comando es solo para clonar, despues solo hace falta cd para poder entrar-
 +Pregunta 2:
