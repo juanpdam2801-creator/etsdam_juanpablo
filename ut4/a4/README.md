@@ -94,4 +94,4 @@ Para cada una de las clases se deben implementar los siguientes **métodos**:
 
 A continuación se muestra el diagrama de clases creado:
 
-![](/img/001.png)
+![](img/001.png)
