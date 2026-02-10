@@ -63,4 +63,5 @@ Cuando el **usuario** pulsa el botón “Activar calefacción”, ocurre la sigu
 
 A continuación se muestra el diagrama de secuencias:
 
-![](/img/001.png) 
+![](img/001.png) 
+
