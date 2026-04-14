@@ -40,13 +40,36 @@ Durante la sesión se realizará un **debate en clase**, donde cada grupo expond
 
 Para identificar posibles problemas puedes plantearte las siguientes cuestiones:
 
-- ¿Hay **métodos demasiado largos**?
-- ¿Las **variables tienen nombres claros y descriptivos**?
-- ¿Se repite código en diferentes partes del programa?
-- ¿Hay **números que aparecen directamente en el código sin explicación**?
-- ¿El código mezcla distintas responsabilidades?
-- ¿El programa sería fácil de modificar o ampliar?
-- ¿Falta documentación o comentarios que expliquen el funcionamiento?
+¿Hay **métodos demasiado largos**?
+
+- Directamente no hay métodos, toda la logica del programa se está realizando dentro del main del programa.
+
+¿Las **variables tienen nombres claros y descriptivos**?
+
+- No, muchas variables unicamente se identifican con letras que no aclara mucho que es lo que representan.
+- Tambien tenemos variables que no se identifican con letras, sino con nombres que podrian mejorarase para aclarar un poco más su significado.
+  
+¿Se repite código en diferentes partes del programa?
+
+- NO se repite el código, pero está super desordenado y muy mal ubicado.
+
+¿Hay **números que aparecen directamente en el código sin explicación**?
+
+- A simple vista creemos que no hya números que aparezcan sin aparente explicación.
+  
+¿El código mezcla distintas responsabilidades?
+
+- Principalmente tenemos tres clases dentro de la misma clase. Deberiamos de dividirlas en tres, creando una clase para la informacion del producto, otra para la lógica de la tienda, y otra para el main, donde veremos la informacion que saldrá por pantalla.
+  
+- Mucho codigo dentro del main podriamos sacralo, haciendo el main mucho mas corto, unicamente dejando los resultado ahí. La lógica la moveriamos a un nuevo metodo en la clase "Producto".
+
+¿El programa sería fácil de modificar o ampliar?
+
+- Depende, si el codigo lo dejamos tal cual, sera complicado añadir o modificar metodos porque romperiamos la logica todal de la clase única. Sin embargo, si separamos las responsabilidades y las añadimos a sus respectivas clases, el añadir y modificar código seŕa bastante más factible.
+
+¿Falta documentación o comentarios que expliquen el funcionamiento?
+
+- Sí, lo recomentable sería que se comentara todas las partes del código, metodos y clases. Esto es bastante util porque así ayudamos a individuos externos a que entiendan nuestro codigo, a que sepan para que sirve una clase y para que vean cual es el objetivo de cada método.
 
 ### Entregable
 
@@ -76,7 +99,6 @@ class Producto {
         this.c = c;
     }
 }
-
 public class Tienda {
 
     public static void main(String[] args) {
@@ -115,13 +137,11 @@ public class Tienda {
 
             System.out.println("-------------------");
         }
-
         System.out.println("TOTAL PEDIDO: " + total);
 
         if (total > 500) {
             System.out.println("Cliente VIP");
         }
-
     }
 }
-```
+```Juan pablo Bermudez Suarez, Alejandro Donate. Jorge
