@@ -191,7 +191,7 @@ Posteriormente debes crear nuevos tests para comprobar también los siguientes c
 - lista vacía
 
 java
-![test](a3/CalculadoraTest.png)
+![test](img/CalculadoraTest.png)
 
 
 
