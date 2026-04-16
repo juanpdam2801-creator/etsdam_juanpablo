@@ -190,7 +190,7 @@ Posteriormente debes crear nuevos tests para comprobar también los siguientes c
 
 Todos los test
 
-java
+
 ![test](img/calculadoraTest.png)
 
 Tras añadir los nuevos tests debes volver a ejecutar los tests e intentar conseguir una cobertura mínima del 90%. A continuación inserta una captura de pantalla con el resultado de la cobertura de los test:
@@ -200,8 +200,11 @@ Tras añadir los nuevos tests debes volver a ejecutar los tests e intentar conse
 ### Reflexión final
 
 + ¿Qué partes del código no estaban cubiertas?
++ El proyecto fue creado de cero, asi que tuve que cubrir la mayoria de casos.
 + ¿Qué tests has añadido?
++ al crear el proyecto desde cero tuve que crear todos los test que se ven en la imagen.
 + ¿Qué cobertura final has obtenido?
++ 
 
 Debes subir a tu repositorio de GitHub:
 
