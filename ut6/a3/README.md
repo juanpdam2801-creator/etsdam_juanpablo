@@ -204,7 +204,7 @@ Tras añadir los nuevos tests debes volver a ejecutar los tests e intentar conse
 + ¿Qué tests has añadido?
 + al crear el proyecto desde cero tuve que crear todos los test que se ven en la imagen.
 + ¿Qué cobertura final has obtenido?
-+ 
++ Cubri un 82% de los casos
 
 Debes subir a tu repositorio de GitHub:
 
