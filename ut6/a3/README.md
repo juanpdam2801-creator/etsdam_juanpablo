@@ -188,21 +188,10 @@ Debes analizar qué partes del código no están siendo ejecutadas por los tests
 
 Posteriormente debes crear nuevos tests para comprobar también los siguientes casos:
 
-- lista vacía
+Todos los test
 
 java
 ![test](img/calculadoraTest.png)
-
-
-
-
-- nota fuera de rango
-
-```java
-
-
-````
-
 
 Tras añadir los nuevos tests debes volver a ejecutar los tests e intentar conseguir una cobertura mínima del 90%. A continuación inserta una captura de pantalla con el resultado de la cobertura de los test:
 
