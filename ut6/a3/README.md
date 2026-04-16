@@ -190,10 +190,10 @@ Posteriormente debes crear nuevos tests para comprobar también los siguientes c
 
 - lista vacía
 
-```java
+java
+![test](img/CalculadoraTest.png)
 
 
-````
 
 
 - nota fuera de rango
