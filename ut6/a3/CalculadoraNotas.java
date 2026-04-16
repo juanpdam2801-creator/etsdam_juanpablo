@@ -1,22 +1,26 @@
+package calculadora;
+/**
+ * @author Jpsuaa
+ * @version 1.0.0
+ * Clase que funciona para calcular notas
+ */
 public class CalculadoraNotas {
-
+    /**
+     * Metodo que calcula la nota media de un usuario
+     * @param notas
+     * @return La media de las notas
+     */
     public static double calcularMedia(int[] notas) {
-
         if(notas.length == 0){
             throw new IllegalArgumentException("Lista vacía");
         }
-
         int suma = 0;
-
         for(int nota : notas){
-
             if(nota < 0 || nota > 10){
                 throw new IllegalArgumentException("Nota fuera de rango");
             }
-
             suma += nota;
         }
-
-        return (double) suma / notas.length;
+        return (double) suma / notas.length; 
     }
 }
