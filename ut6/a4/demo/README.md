@@ -216,7 +216,7 @@ Tras diseñar los tests y analizar el código:
 - ¿qué porcentaje de cobertura has obtenido?
 - ¿todos los tests pasan correctamente?
 
-###Nota:No he podido sacar las capturas de la cobertura de Jacoco, pues por alguna razon no me permite lanzar los test
+### Nota:No he podido sacar las capturas de la cobertura de Jacoco, pues por alguna razon no me permite lanzar los test
 
 
 ### Entrega
