@@ -1,6 +1,6 @@
 package com.tienda;
 /**
- * @author AlejandroDonGar
+ * @author Jpsuaa
  * @version 1.0.0
  * Clase Producto
  */
