@@ -1,6 +1,6 @@
 package com.tienda;
 /**
- * @author AlejandroDonGar
+ * @author Jpsuaa
  * @version 1.0.0
  */
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class CarritoService {
     /**
-     * Metodo que calcula el subtotal de los productos del carrito
+     * Funcion que calcula el subtotal de los productos del carrito
      * @param carrito
      * @return Sutotal del conjunto de los productos del carrito
      */
@@ -21,7 +21,7 @@ public class CarritoService {
         return subtotal;
     }
     /**
-     * Metodo que aplica un decuento a los poductos del carrito
+     * Funcion que aplica un decuento a los poductos del carrito
      * @param subtotal
      * @param descuento
      * @return Calculo del descuento sobre el carrito
@@ -33,7 +33,7 @@ public class CarritoService {
         return subtotal-(subtotal*descuento/100);
     }
     /**
-     * Metodo que calcula el costo del envio del producto
+     * Funcion que calcula el costo del envio del producto
      * @param subtotal
      * @return El costo final del envio
      */
@@ -45,7 +45,7 @@ public class CarritoService {
         }
     }
     /**
-     * Metodo que calcula el total monetario del carrito
+     * Funcion que calcula el total monetario del carrito
      * @param carrito
      * @param descuento
      * @return El coste total de todos los items carrito
