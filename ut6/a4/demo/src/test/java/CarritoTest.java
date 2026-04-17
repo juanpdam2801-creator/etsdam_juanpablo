@@ -1,6 +1,6 @@
 
 /**
- * @author AlejandroDonGar
+ * @author Jpsuaa
  * @version 1.0.0
  */
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import com.java.CarritoService;
 import com.java.Producto;
 /**
- * Clase CarritoTest que usamos para comprobar que el programa se comporte como esperado 
+ * Clase CarritoTest usada para comprobar la seguridad del codigo 
  */
 public class CarritoTest {
     /**
