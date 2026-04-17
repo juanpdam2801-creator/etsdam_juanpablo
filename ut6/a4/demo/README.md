@@ -162,31 +162,52 @@ Durante la ejecución de los tests es posible que algunos de ellos fallen. Esto 
 
 Responde a las siguientes preguntas en este documento:
 
-#### 1. Tests que han fallado
+#### 1.
+Error 1: descuento inválido no controlado
+Problema:
+return subtotal - (subtotal * descuento / 100);
 
-- Indica qué tests han fallado durante la ejecución inicial
-- Explica brevemente por qué esos tests deberían pasar según el comportamiento descrito
+No valida si el descuento es negativo o >100
 
+Solución:
+if (descuento < 0 || descuento > 100) {
+    throw new IllegalArgumentException("Descuento inválido");
+}
+Error 2: carrito vacío
 
+Si hacen algo como:
 
-#### 2. Identificación de errores en el código
+for (Producto p : carrito) {
 
-Si has detectado errores en el programa, indica:
+Puede romper si carrito es null
 
-- en qué método se encuentran
-- qué línea del código es incorrecta
-- por qué produce un resultado incorrecto
+Solución:
+```
+if (carrito == null || carrito.isEmpty()) {
+    return 0;
+}
+```
+Tercer Error: orden incorrecto en calcularTotal
 
+Muchos hacen:
 
+SUBTOTAL → ENVÍO → DESCUENTO 
 
-#### 3. Corrección propuesta
+Pero el README dice:
 
-Explica cómo se debería corregir el código para que el comportamiento sea el esperado.
+SUBTOTAL → DESCUENTO → ENVÍO 
+3. correcion.
 
-Incluye el fragmento de código corregido.
+Por si necesitas comparar:
+```
+public double calcularTotal(List<Producto> carrito, double descuento) {
+    double subtotal = calcularSubtotal(carrito);
+    double conDescuento = aplicarDescuento(subtotal, descuento);
+    double envio = calcularEnvio(conDescuento);
 
-
-
+    return conDescuento + envio;
+}
+```
 #### 4. Resultado final
 
 Tras diseñar los tests y analizar el código:
@@ -195,6 +216,7 @@ Tras diseñar los tests y analizar el código:
 - ¿qué porcentaje de cobertura has obtenido?
 - ¿todos los tests pasan correctamente?
 
+###Nota:No he podido sacar las capturas de la cobertura de Jacoco, pues por alguna razon no me permite lanzar los test
 
 
 ### Entrega
