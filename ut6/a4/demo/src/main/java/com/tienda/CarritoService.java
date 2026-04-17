@@ -10,7 +10,7 @@ import java.util.List;
 public class CarritoService {
     /**
      * Funcion que calcula el subtotal de los productos del carrito
-     * @param carrito
+     * @param carrito lista
      * @return Sutotal del conjunto de los productos del carrito
      */
     public static double calcularSubtotal(List<Producto> carrito) {
@@ -22,8 +22,8 @@ public class CarritoService {
     }
     /**
      * Funcion que aplica un decuento a los poductos del carrito
-     * @param subtotal
-     * @param descuento
+     * @param subtotal double
+     * @param descuento double 
      * @return Calculo del descuento sobre el carrito
      */
     public static double aplicarDescuento(double subtotal, double descuento) {
@@ -34,7 +34,7 @@ public class CarritoService {
     }
     /**
      * Funcion que calcula el costo del envio del producto
-     * @param subtotal
+     * @param subtotal double
      * @return El costo final del envio
      */
     public static double calcularEnvio(double subtotal) {
@@ -46,8 +46,8 @@ public class CarritoService {
     }
     /**
      * Funcion que calcula el total monetario del carrito
-     * @param carrito
-     * @param descuento
+     * @param carrito Lista
+     * @param descuento double
      * @return El coste total de todos los items carrito
      */
     public static double calcularTotal(List<Producto> carrito, double descuento) {
